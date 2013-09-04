@@ -1,0 +1,14 @@
+E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.Core\bin\Release\NamoCode.PicaFlor.Core.dll
+E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.Core\bin\Release\NamoCode.PicaFlor.Core.pdb
+E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.Core\bin\Release\Cirrious.CrossCore.dll
+E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.Core\bin\Release\Cirrious.MvvmCross.dll
+E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.Core\bin\Release\Cirrious.MvvmCross.Localization.dll
+E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.Core\bin\Release\Cirrious.MvvmCross.Plugins.Json.dll
+E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.Core\bin\Release\NamoCode.Mvx.Core.dll
+E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.Core\bin\Release\Newtonsoft.Json.dll
+E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.Core\bin\Release\NamoCode.Mvx.Core.pdb
+E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.Core\obj\Release\NamoCode.PicaFlor.Core.csprojResolveAssemblyReference.cache
+E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.Core\obj\Release\NamoCode.PicaFlor.Core.Resources.AppResources.resources
+E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.Core\obj\Release\NamoCode.PicaFlor.Core.csproj.GenerateResource.Cache
+E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.Core\obj\Release\NamoCode.PicaFlor.Core.dll
+E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.Core\obj\Release\NamoCode.PicaFlor.Core.pdb

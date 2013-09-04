@@ -1,0 +1,15 @@
+Assets\Logo.png
+Assets\SmallLogo.png
+Assets\SplashScreen.png
+Assets\StoreLogo.png
+App.xaml
+Common\StandardStyles.xaml
+Views\AboutView.xaml
+Views\CongresistaDetailView.xaml
+Views\CongresistasView.xaml
+Views\FirstView.xaml
+Views\MainView.xaml
+Views\SesionesDetailView.xaml
+Views\SesionesView.xaml
+Common\ReadMe.txt
+ToDo-MvvmCross\_ Windows Store UI.txt

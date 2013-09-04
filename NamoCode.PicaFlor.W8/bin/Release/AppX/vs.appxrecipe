@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ENKILAPTOP</Machine>
+    <WindowsUser>JoseManuel</WindowsUser>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>ADE216A56E0A775E5A6D5DDEBF8E0D85F2B781ABE55FF19CFCDE2A4CF63F68EE</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>28838NamoCode.PicaFlor_1.0.0.1_neutral__gv7x85j9hdnj8</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>28838NamoCode.PicaFlor_gv7x85j9hdnj8!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>28838NamoCode.PicaFlor</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=9C9A8CD8-4D9B-408D-A90B-78D4135BA5FA</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.1</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.W8\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-08-28T12:48:13.243</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.W8\bin\Release\NamoCode.PicaFlor.W8.exe">
+      <PackagePath>NamoCode.PicaFlor.W8.exe</PackagePath>
+      <Modified>2013-08-28T12:48:12.286</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.W8\bin\Release\NamoCode.PicaFlor.W8.pdb">
+      <PackagePath>NamoCode.PicaFlor.W8.pdb</PackagePath>
+      <Modified>2013-08-28T12:48:12.245</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.Mvx\NamoCode.Mvx.W8\bin\Release\NamoCode.Mvx.W8.pdb">
+      <PackagePath>NamoCode.Mvx.W8.pdb</PackagePath>
+      <Modified>2013-08-25T23:36:41.385</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\packages\MvvmCross.HotTuna.CrossCore.3.0.10\lib\netcore45\Cirrious.CrossCore.dll">
+      <PackagePath>Cirrious.CrossCore.dll</PackagePath>
+      <Modified>2013-08-22T01:53:51.403</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\packages\MvvmCross.HotTuna.CrossCore.3.0.10\lib\netcore45\Cirrious.CrossCore.WindowsStore.dll">
+      <PackagePath>Cirrious.CrossCore.WindowsStore.dll</PackagePath>
+      <Modified>2013-08-22T01:53:51.874</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.0.10\lib\netcore45\Cirrious.MvvmCross.dll">
+      <PackagePath>Cirrious.MvvmCross.dll</PackagePath>
+      <Modified>2013-08-22T01:53:39.215</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\packages\MvvmCross.HotTuna.CrossCore.3.0.10\lib\netcore45\Cirrious.MvvmCross.Localization.dll">
+      <PackagePath>Cirrious.MvvmCross.Localization.dll</PackagePath>
+      <Modified>2013-08-22T01:53:52.392</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\packages\MvvmCross.HotTuna.MvvmCrossLibraries.3.0.10\lib\netcore45\Cirrious.MvvmCross.WindowsStore.dll">
+      <PackagePath>Cirrious.MvvmCross.WindowsStore.dll</PackagePath>
+      <Modified>2013-08-22T01:53:39.688</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.Mvx\NamoCode.Mvx.Core\bin\Release\NamoCode.Mvx.Core.dll">
+      <PackagePath>NamoCode.Mvx.Core.dll</PackagePath>
+      <Modified>2013-08-25T23:28:40.512</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.Mvx\NamoCode.Mvx.W8\bin\Release\NamoCode.Mvx.W8.dll">
+      <PackagePath>NamoCode.Mvx.W8.dll</PackagePath>
+      <Modified>2013-08-25T23:36:41.433</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.Core\bin\Release\NamoCode.PicaFlor.Core.dll">
+      <PackagePath>NamoCode.PicaFlor.Core.dll</PackagePath>
+      <Modified>2013-08-25T23:35:45.388</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.Mvx\NamoCode.Mvx.Core\bin\Release\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2013-08-16T15:31:15.510</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.Mvx\NamoCode.Mvx.Core\bin\Release\NamoCode.Mvx.Core.pdb">
+      <PackagePath>NamoCode.Mvx.Core.pdb</PackagePath>
+      <Modified>2013-08-25T23:28:40.465</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.Core\bin\Release\NamoCode.PicaFlor.Core.pdb">
+      <PackagePath>NamoCode.PicaFlor.Core.pdb</PackagePath>
+      <Modified>2013-08-25T23:35:45.339</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.W8\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-08-22T00:59:34.932</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.W8\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-08-22T01:00:21.712</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.W8\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-08-22T01:01:39.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.W8\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-08-22T01:02:26.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.W8\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2013-08-21T01:21:39.027</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.W8\ToDo-MvvmCross\_ Windows Store UI.txt">
+      <PackagePath>ToDo-MvvmCross\_ Windows Store UI.txt</PackagePath>
+      <Modified>2013-08-22T01:56:09.328</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.W8\bin\Release\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-08-21T02:06:49.402</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.W8\bin\Release\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-07-26T18:24:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.W8\bin\Release\Views\AboutView.xaml">
+      <PackagePath>Views\AboutView.xaml</PackagePath>
+      <Modified>2013-08-21T01:26:43.453</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.W8\bin\Release\Views\CongresistaDetailView.xaml">
+      <PackagePath>Views\CongresistaDetailView.xaml</PackagePath>
+      <Modified>2013-08-22T00:39:09.095</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.W8\bin\Release\Views\CongresistasView.xaml">
+      <PackagePath>Views\CongresistasView.xaml</PackagePath>
+      <Modified>2013-08-21T23:49:30.651</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.W8\bin\Release\Views\FirstView.xaml">
+      <PackagePath>Views\FirstView.xaml</PackagePath>
+      <Modified>2013-08-22T01:56:07.395</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.W8\bin\Release\Views\MainView.xaml">
+      <PackagePath>Views\MainView.xaml</PackagePath>
+      <Modified>2013-08-21T22:30:16.757</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.W8\bin\Release\Views\SesionesDetailView.xaml">
+      <PackagePath>Views\SesionesDetailView.xaml</PackagePath>
+      <Modified>2013-08-22T00:24:54.963</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.W8\bin\Release\Views\SesionesView.xaml">
+      <PackagePath>Views\SesionesView.xaml</PackagePath>
+      <Modified>2013-08-21T22:30:14.332</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Projects\NamoCode.PicaFlor\NamoCode.PicaFlor\NamoCode.PicaFlor.W8\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-08-28T12:48:12.852</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

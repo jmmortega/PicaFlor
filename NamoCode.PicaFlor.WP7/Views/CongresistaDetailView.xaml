@@ -1,0 +1,112 @@
+﻿<views:CustomPicaFlorPhoneView
+    x:Class="NamoCode.PicaFlor.WP7.Views.CongresistaDetailView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:views="clr-namespace:NamoCode.PicaFlor.WP7.Views"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot es la cuadrícula raíz donde se coloca todo el contenido de la página-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Image Source="{Binding BackgroundImage}" Opacity="0.1"
+               Grid.Row="0" Grid.RowSpan="2"/>
+        
+        <!--TitlePanel contiene el nombre de la aplicación y el título de la página-->
+        <Grid Grid.Row="0" Margin="12,17,0,28">
+            <ProgressBar IsIndeterminate="True" Visibility="{Binding ProgressBarVisibility,Converter={StaticResource ConverterBooleanToVisibility}}"
+                         VerticalAlignment="Top"/>
+            
+            <TextBlock Text="{Binding FullName}" Style="{StaticResource PhoneTextNormalStyle}"/>
+            
+            <Popup Grid.Row="0" IsOpen="{Binding MessageVisibility}">
+                <Grid Background="{StaticResource PhoneAccentBrush}" Width="470" Height="80">
+                    <TextBlock Text="{Binding MessageText}" HorizontalAlignment="Left" VerticalAlignment="Center" TextWrapping="Wrap" Width="400"/>
+                    <Button Content="OK" HorizontalAlignment="Right" VerticalAlignment="Bottom" Tap="Button_Tap"/>
+                </Grid>
+            </Popup>
+
+        </Grid> 
+
+        <!--ContentPanel. Colocar aquí el contenido adicional-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="70*"/>
+            </Grid.RowDefinitions>
+            
+            <Grid.ColumnDefinitions>                
+                <ColumnDefinition Width="30*"/>
+                <ColumnDefinition Width="70*"/>
+            </Grid.ColumnDefinitions>
+            
+            
+            
+
+            <StackPanel Grid.Row="0" Grid.Column="1">                 
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="{Binding DivisionImage}" Width="25" Height="25"/>
+                    <TextBlock Text="{Binding ThisParlamentary.Division}"/>
+                </StackPanel>
+                
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="{Binding EmailImage}" Width="25" Height="25"/>
+                    <TextBlock Text="{Binding ThisParlamentary.Email}"/>
+                </StackPanel>
+                
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="{Binding TwitterImage}" Width="25" Height="25"/>
+                    <TextBlock Text="{Binding ThisParlamentary.Twitter}"/>
+                </StackPanel>
+                
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="{Binding WebImage}" Width="25" Height="25"/>
+                    <TextBlock Text="{Binding ThisParlamentary.Web}"/>
+                </StackPanel>
+            </StackPanel>
+
+            <Image Source="{Binding ThisParlamentary.Avatar}" Grid.Row="0" Grid.Column="0"/>
+
+
+            <TextBlock Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" TextAlignment="Center" Style="{StaticResource PhoneTextNormalStyle}"
+                       Text="{Binding ActualMessages.LastVotes, Source={StaticResource LanguageProvider}}"/>
+              
+            <ListBox ItemsSource="{Binding VotesShowed}" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                            <TextBlock Text="{Binding Title}" TextWrapping="Wrap" TextDecorations="Underline"/>
+                            <TextBlock Text="{Binding Description}" TextWrapping="Wrap" FontWeight="Thin"/>
+                            <TextBlock Text="{Binding Vote}" FontWeight="ExtraBlack" HorizontalAlignment="Center"/>                            
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+        </Grid>
+    </Grid>
+
+    <views:CustomPicaFlorPhoneView.ApplicationBar>
+        <shell:ApplicationBar IsMenuEnabled="True" Mode="Minimized">
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="Rate" Click="RateClick"/>
+                <shell:ApplicationBarMenuItem Text="More NamoCode" Click="MoreClick"/>
+                <shell:ApplicationBarMenuItem Text="About" Click="AboutClick"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </views:CustomPicaFlorPhoneView.ApplicationBar>
+
+</views:CustomPicaFlorPhoneView>
